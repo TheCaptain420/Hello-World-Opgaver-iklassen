@@ -1,10 +1,13 @@
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import java.io.*;
 
 public class TrycatchSUM {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
+        File file = new File("images/reee.jpg");
+        System.out.println("Does it exist: " +file.exists());
 
         int num1 = 5;
         int num3 = 5;
@@ -27,5 +30,6 @@ public class TrycatchSUM {
             }
         }
     }
+
 
 }

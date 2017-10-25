@@ -9,6 +9,7 @@ public class TrycatchSUM {
         File file = new File("images/reee.jpg");
         System.out.println("Does it exist: " +file.exists());
 
+
         int num1 = 5;
         int num3 = 5;
         int acsum = num1 + num3;
